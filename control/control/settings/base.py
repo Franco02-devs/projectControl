@@ -28,7 +28,9 @@ BASE_APPS = [
 ]
 
 LOCAL_APPS=[
-    'apps.users'
+    'apps.users',
+    'apps.base',
+    'apps.records',
     
 ]
 
