@@ -43,7 +43,7 @@ class Record(BaseModel):
         verbose_name_plural = "Registros"
 
     def __str__(self):
-        return f"{self.time} - {self.location}"
+        return f"{self.time} : {self.location}"
 
 
 
