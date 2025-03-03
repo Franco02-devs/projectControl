@@ -24,7 +24,7 @@ class Location(BaseModel):
     def __str__(self):
         return f"{self.latitude} - {self.longitude}"
     
-class Record(models.Model):
+class Record(BaseModel):
     time=models.TimeField()
     date=models.DateField()
     location=models.ForeignKey(Location, on_delete=models.CASCADE, verbose_name= "")
