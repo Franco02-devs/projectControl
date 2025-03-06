@@ -36,8 +36,14 @@ LOCAL_APPS=[
 
 THIRD_APPS=[
     'rest_framework', 
-    'simple_history',  
+    'simple_history',
+    'drf_yasg', 
+    'rest_framework.authtoken', 
 ]
+
+SWAGGER_SETTINGS = {
+    'DOC_EXPANSION': 'none'
+}
 
 INSTALLED_APPS=BASE_APPS+LOCAL_APPS+THIRD_APPS
 
